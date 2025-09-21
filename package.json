@@ -1,0 +1,37 @@
+{
+  "name": "url-query-state",
+  "version": "0.0.2",
+  "private": false,
+  "type": "module",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "dist/index.js"
+  ],
+  "keywords": [
+    "url",
+    "query",
+    "state",
+    "react"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "peerDependencies": {
+    "react": "^18 || ^19"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^19",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "typescript": "^5.5.0"
+  }
+}
