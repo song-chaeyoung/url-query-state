@@ -1,6 +1,6 @@
 {
   "name": "url-query-state",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "type": "module",
   "main": "dist/index.js",
@@ -16,7 +16,8 @@
     "url",
     "query",
     "state",
-    "react"
+    "react",
+    "url-query-state"
   ],
   "publishConfig": {
     "access": "public"
